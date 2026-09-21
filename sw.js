@@ -1,6 +1,6 @@
 // 같은 주소(ifriend0607.github.io)의 다른 앱(gym0607) 캐시는 건드리지 않도록 'wf-'로 시작하는 것만 정리
 // 항상 서버의 최신 파일부터 확인하고(no-cache), 인터넷이 안 될 때만 저장해 둔 파일을 씀
-const CACHE = 'wf-v11';
+const CACHE = 'wf-v12';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE)
