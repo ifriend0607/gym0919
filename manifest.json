@@ -1,0 +1,15 @@
+{
+  "id": "./?app=gym0919",
+  "name": "라인 운동",
+  "short_name": "라인 운동",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#201C27",
+  "theme_color": "#201C27",
+  "lang": "ko",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
